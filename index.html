@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stamp</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+      <header>
+          <div class="logo-container">
+              <img class="logo" src="assets/logo.png" />
+          </div>
+          <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li class="nav__item"><a href="#">About</a></li>
+                <li class="nav__item"><a href="#">Integrations</a></li>
+                <li class="nav__item"><a href="#">Pricing</a></li>
+                <li class="nav__item"><a href="#">Contacts</a></li>
+            </ul>
+            </nav>
+            <div class="menu-icon-container hide-tab">
+                <img src="assets/menu-icon.svg"/>
+            </div>
+        </header>
+    <main>
+        <section class="main-content">
+            <article class="hero__content">
+                <h1 class="hero__heading">Simple Way to Organize Your Inspirations</h1>
+                <p class="hero__copy">I think what motivates people is not great hate, <br class="show-desk"/>but great love for other people. </p>
+            </article>
+            <form class="form__sign-up">
+                <p class="form__title">Sign up for free</p>
+                <div class="form__inputs-container">
+                    <label class="hidden">Name</label>
+                    <input type="text" name="name" placeholder="Name" />
+                    <label class="hidden">E-Mail</label>
+                    <input type="email" name="email" placeholder="E-mail" />
+                    <label class="hidden">Password</label>
+                    <input type="password" name="password" placeholder="Password" class="pw-field" />
+                    <span class="pw-field-icon"></span>
+                </div>
+                <label class="hidden" for="sign-up-submit">Sign Up</label>
+                <span class="btn__sign-up-wrap"><input type="submit" value="Sign up" class="btn__sign-up"></span>
+                <div class="form__sign-up-terms">
+                    <p>By clicking "Sign up" I agree to our</p>
+                    <a href="#" class="form__sign-up-terms-link">Terms of Service</a>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2016 Stamp. All Rights Reserved</p>
+        <ul class="footer__links">
+            <li class="footer__links-item"><a href="#">Contact</a></li>
+            <li class="footer__links-item"><a href="#">Help</a></li>
+            <li class="footer__links-item"><a href="#">Terms of Use</a></li>
+            <li class="footer__links-item"><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+    <nav class="menu__mobile">
+        <a class="menu__close" onclick="event.preventDefault()" href="">x</a>
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__item"><a href="#">About</a></li>
+        </ul>
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__item"><a href="#">Integrations</a></li>
+        </ul>
+        <ul class="mobile-nav__list">
+           <li class="mobile-nav__item"><a href="#">Pricing</a></li>
+        </ul>
+        <ul class="mobile-nav__list">
+           <li class="mobile-nav__item"><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
+    <script src="js/min/scripts.min.js"></script>
+  </body>
+</html>
